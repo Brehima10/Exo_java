@@ -1,0 +1,61 @@
+import java.util.Scanner;
+Public class Main {
+             Public static void main( String args[]{
+public static
+
+
+   do {
+                  
+                  System.out.println("1-Inscrire Etudiant")
+                  System.out.println("2-Afficher Boursier")
+                  System.out.println("3-Afficher Non boursier")
+                  System.out.println("4-Quitter")
+                    choix=clavier.nextLine;
+                  
+                  swich(choix){
+
+                   
+                    case "1":
+         
+                    System.out.println("Entrer nom de l'etudiant");
+                    String nom=clavier.nextLine();
+                    Classe nom=new nom();
+                    cl.setNom(nom);
+
+                    System.out.println("Entrer prenom de l'etudiant");
+                    String prenom=clavier.nextLine();
+                    Classe prenom=new prenom();
+                    cl.setPrenom(prenom);
+
+                    System.out.println("Entrer le matricule de l'etudiant");
+                    String Matricule=clavier.nextLine();
+                    Classe matricule=new matricule();
+                    cl.setMatricule(matricule);
+                    
+                    System.out.println("Entrer la DateNaiss de l'etudiant");
+                    String Tuteur=clavier.nextLine();
+                    Classe DateNaiss=new DateNaiss();
+                    cl.setDateNaiss(DateNaiss);
+
+                    service.inscrireEtudiant(cl);
+                    
+                    break;
+                    
+                    case "2":
+                    System.out.println("-------------########-------------");
+                    service.listerBoursier();
+                    System.out.println("-------------########-------------");
+                    break;
+
+
+                    case "3":
+                    System.out.println("-------------########-------------");
+                    service.listerNonboursier();
+                    System.out.println("-------------########-------------");
+                    break;
+
+                      }
+
+             }while (choix!="4")
+
+}

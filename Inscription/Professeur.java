@@ -1,1 +1,8 @@
-Public 
+Public classe Professeur extends Personne{
+
+
+
+
+
+
+}

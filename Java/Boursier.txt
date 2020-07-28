@@ -1,0 +1,26 @@
+Public classe Boursier extends Etudiant{
+
+    //proprietes Etudiants
+      private String type
+
+    public Boursier (){
+      super(); //Etudiant();
+     }
+     //Surcharge
+    public Boursier (String nom,String prenom,String type ){
+      super(); //Personne();
+     }
+    //Getters et Setters
+
+     public String getType(){
+       return type;
+     }
+     
+     public void setType (String type){
+        this.type = type;
+     }
+     
+
+
+
+}

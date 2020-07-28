@@ -1,0 +1,61 @@
+ Public abstract class Etudiant implements {
+    
+
+
+     protected int id;
+     protected String nom;
+     protected String prenom;
+     protected String matricule;
+     protected String DateNaiss;
+
+    
+     public Personne(String nom, String prenom, String matricule, String DateNaiss){
+       this.nom = nom;
+       this.prenom = prenom;
+       this.matricule = matricule;
+       this.DateNaiss = DateNaiss;
+     }
+
+
+     public int getId(){
+       return id;
+     }
+     public String getNom(){
+       return nom;
+     }
+     public String getPrenom(){
+       return prenom;
+     }
+
+     public String getMatricule(){
+       return matricule;
+     }
+     public String getDateNaiss(){
+       return DateNaiss
+     }
+     public void setId (int id){
+        this.id = id;
+     }
+
+     public void setNom (String nom){
+        this.nom = nom;
+     }
+     public void setPrenom (String prenom){
+        this.prenom = prenom;
+     }
+
+     public void setMatricule (String matricule){
+        this.matricule = matricule;
+     }
+
+     public void setDateNaiss (String DateNaiss){
+        this.DateNaiss = DateNaiss;
+     }
+     @Override
+     public String affiche(){
+       return "Id: "+this.id+"Nom: "+this.nom+" Prenom: "this.prenom+ "matricule: " this.matricule+ "DateNaiss: "this.DateNaiss ;
+     }
+
+
+
+}

@@ -1,0 +1,33 @@
+Public classe Non boursier extends Etudiant{
+
+    //proprietes Non bousier
+      private String aide
+      private String adresse
+      
+    public Boursier (){
+      super(); //Etudiant();
+     }
+     //Surcharge
+    public Boursier (String nom,String prenom,String aide , String adresse){
+      super(); //Personne();
+     }
+    //Getters et Setters
+     public String getaide(){
+       return aide;
+     }
+     public String getadresse(){
+       return adresse;
+     }
+
+     public void setAide (String aide){
+        this.aide = aide;
+     }
+     
+     public void setAdresse (String adresse){
+        this.addresse = addresse;
+     }
+     
+
+
+
+}

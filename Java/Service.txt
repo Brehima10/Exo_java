@@ -1,0 +1,24 @@
+Public classe Boursier extends Etudiant{
+
+    
+    //proprietes Navigationnelles
+    // =>Association many to one entre Etudiant et Classe
+
+      private Classe classeEtu;
+
+    //constructeurs
+      //Par défaut
+      //Super => classe parente
+      //Super => personne
+    public Boursier (){
+      super(); //Etudiant();
+     }
+     //Surcharge
+    public Bousier (String nom,String prenom,String matricule,String DateNaiss ){
+      super(); //Etudiant();
+     }
+   
+     
+
+
+}
